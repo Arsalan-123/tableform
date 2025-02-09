@@ -1,132 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML Table Example</title>
-    <style>
-.main{
-    text-align: center;
-}
-
-
-        table {
-            width: 100%;
-            }
-
-    
-        td {
-            border: 2px solid black;
-            padding: 10px;
-        }
-        .navbar{
-            display: flex;
-            padding: 10px 20px;
-            justify-content: center ;
-            margin-top: -35px;
-
-
-        }
-        .navbar a {
-            font-size: x-large;
-            color: black;
-            padding: 14px 20px;
-        }
-    .para1{
-           width: 20%;
-    }
-.para2{
-    width: 55%;
-}
-.para3{
-    width: 25%
-}
-        input{
-            width: 100%;
-            font-size: x-large;
-            margin-top: 20px;
-        }
-
-    </style>
+    <title>Unordered List Example</title>
+    <link rel="stylesheet" href="./style.css ">
 </head>
-
 <body>
-<Div class="main">
-<h1>Arsalan <br>web developer</h1>
-</Div>
-<div class="navbar">
+    <h1>Arsalan Jawaid</h1>
+
+<nav>
+    <ul class="navbar ">
+        
+        <li> <a href="./about.html.">About </a> </li>
+        <li> <a href="./skills.html">Skills</a> </li>
+        <li> <a href="./conatct.html">Conatct</a> </li>
+        
+    </ul>
+</nav>
+<div class="container">
+<div class="main div1"  >
+        <h3>Portfolio Highlights</h3>
+        <ul>
+            <li>Responsive Html Layout</li>
+        <li>E-Commerce store</li>
+        <li>Interactive Form Design</li></ul>
+    </div>
     
-    <a href="./skill.html">Skills</a>
-    <a href="./abour.html">About</a>
-    <a href="./contct.html">Conatct</a>
+    <div class=   "main div2">
+<h3>Career Achivement</h3>
+ <p>Frontend Dveloper</p>
+<p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab minus 
+    officia dolorum distinctio dignissimos suscipit vitae maiores consectetur eveniet 
+    nostrum, delectus itaque eos. Nostrum officia voluptatem ullam id dignissimos maiores?</p>
+    <a href="">Visit My Linkedin Profile </a>
+<h3>Community Involement</h3>
+<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit, illo 
+    quis dicta rerum distinctio eum dolor sed? Laborum a, explicabo saepe velit illo 
+    quibusdam voluptate, assumenda, recusandae beatae obcaecati unde!</p>
+    <a href="https://github.com/arsalan-123">Visit My Github Profile </a>
+
 </div>
 
-    <table>
-        <tr >
-            <td class="para1">
+    <div class=" main div3">
+        <h3>Academic Qualification</h3>
+        <h5>Masters In Computer Science </h5>
+        <h4>Specilzation</h4>
+        <ul>
+            <li>Data Analytics</li>
+            <li>Advanced Javascript Techniques</li>
 
+            <li>Web Standard</li>
+            <li>Cloud Computing</li>
+            <li>Adavanced Algorithms</li>
+            <li>Web Development</li>
+        </ul>
 
-                <h2>Portfolio Highlights</h2>
-                <ul>
-                    <li>Responsive HTML Layout </li>
-                    <li>E-commerce Store front</li>
-                    <li>Interactive form design</li>
-                    <li>Event count down</li>
-                    <li>Prototype Landing Pages</li>
-                </ul>
-            </td>
-            <td class="para2">
-                <h2>Career Acheivement</h2>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum, accusamus 
-                    dicta molestias soluta autem, recusandae reprehenderit iusto quidem repellendus
-                     ex ratione culpa nulla id tempora beatae itaque temporibus, sunt aut!</p>
-                     <a href="">Vist My Linkdin Profile</a>
+    </div>
+</div>
+<div class=" from-main-container">
+<div class="form-container">
+    <h2>Contact Us</h2>
+    <form >
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
 
-                     <h2>Community Involement</h2>
-                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum, accusamus 
-                         dicta molestias soluta autem, recusandae reprehenderit iusto quidem repellendus
-                          ex ratione culpa nulla id tempora beatae itaque temporibus, sunt aut!</p>
-                          <a href="">Vist My Github Profile</a>
-     
-            </td>
-            <td class="para3">
-                <h2>Academic Qualification</h2>
-                <p>B.Tech Computer science ABC College</p>
-                <p>Specilization</p>
-                <ul>
-                    <li>System Analytics</li>
-                    <li>Advanced Javascript</li>
-                    <li>Web Accesibility</li>
-                    <li>Performance Optimization</li>
-                    <li>Cloud Computing</li>
-                    <li>Infrastructure</li>
-                    <li>Advanced Algorthim</li>
-                </ul>
-                
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
 
-            </td>
-            
-        </tr>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+        <label for="dropdown">Select your Gender:</label>
+        <select id="dropdown" name="options">
+          <option value="option1">Male</option>
+          <option value="option2">Female</option>
+        </select> 
+        <br><br><br><br>
+        <label for="message">Mark your Skills:- </label>
 
-        </tr>
-        
+        <label><input type="checkbox" name="option1" value="option1"> 1.HTML</label>
+        <label><input type="checkbox" name="option2" value="option2"> 2.CSS</label>
+        <label><input type="checkbox" name="option3" value="option3"> 3.Javascript</label>
+<br><br><br><br>
+        <label for="message">Martial Status</label>
+        <label><input type="radio" name="choice" value="option1"> Single  </label>
+        <label><input type="radio" name="choice" value="option2"> Maried</label>
 
-    </table>
-<table  class="form" >
-    <form  action="">
-        <label for=""> Name
-            <input  type="" name="" id=""><br>
-        </label>
-        <label for=""> Email
-            <input  type="" name="" id=""><br>
-        </label>
-        <label for=""> Conatct
-            <input  type="" name="" id="">
-        </label><br>
-        <button>Submit</button>
+        <br><br>
+        <button type="submit" class="submit-btn">Submit</button>
     </form>
-</table>
-</body>
+</div>
+</div>
 
+
+
+
+</body>
 </html>
